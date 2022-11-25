@@ -12,8 +12,8 @@ const Product = ( props ) => {
                 <Card.Body>
                     <Card.Title>{ name }</Card.Title>
                     <Card.Text>
-                        <p>{ price }</p>
-                        <p>{ discount }</p>
+                        <h6>Price:$ { price }</h6>
+                        <p>Discount: { discount }</p>
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>

@@ -10,7 +10,7 @@ const Products = () => {
 
     return (
         <Row className="container mx-auto my-5">
-            <h5 className="mt-5 text-center fw-bold">Hot Deals For You</h5>
+            <h5 className="mt-5 text-start fw-bold">Hot Deals For You</h5>
             <Row className="g-4">
                 {
                     firstSixProducts.map( product => <Product
