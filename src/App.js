@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import Navigation from './Pages/Home/Navigation';
+import Products from './Pages/Home/Products';
 
 function App () {
   return (
-    <div className="m-5">
-      <h1>HOME</h1>
-      <div><Button>Click Me</Button></div>
+    <div>
+      <Navigation />
+      <Products></Products>
     </div>
 
   );
