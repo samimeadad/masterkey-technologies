@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Navigation from './Pages/Home/Navigation';
-import Products from './Pages/Home/Products';
+import Home from './Pages/Home/Home';
 
 function App () {
   return (
     <div>
-      <Navigation />
-      <Products></Products>
+      <Home></Home>
     </div>
 
   );

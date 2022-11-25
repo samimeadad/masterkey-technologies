@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navigation = () => {
     return (
         <div>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between container mt-3">
                 <div>
                     <h4>ShopCart Logo Here</h4>
                 </div>
@@ -15,6 +15,7 @@ const Navigation = () => {
                     <p>Login</p>
                 </div>
             </div>
+            <hr className="container" />
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
